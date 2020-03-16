@@ -1,0 +1,137 @@
+@tailwind base;
+html * {
+  @apply font-base text-sm antialiased;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.grid {
+  background: #ffffff;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.comma:not(:first-child) {
+  margin-left: -.3em;  
+}
+
+.comma:first-child:empty ~ .comma:not(:empty) {
+  margin-left: 0;  
+}
+.comma:first-child:empty ~ .comma:not(:empty) ~ .comma:not(:empty) {
+  margin-left: -.3em;  
+}
+
+.comma:empty {
+  display: none;
+}
+
+.comma:not(:first-child):before {
+  content: ", ";
+}
+
+.comma:not(:first-child):before {
+  content: ", ";
+}
+
+
+.comma:empty + .comma:not(:empty):before {
+  content : "";
+}
+
+.comma:not(:empty) ~
+.comma:empty + .comma:not(:empty):before {
+  content : ", ";
+}
+
+.blog-post h2,
+.blog-post h2 a * {
+  @apply text-2xl text-left leading-6;
+}
+
+.blog-post h2 {
+  @apply mt-6;
+}
+
+.blog-post p {
+  @apply text-gray-700 leading-6 mb-3 text-left;
+}
+
+.blog-post a {
+  @apply text-gray-700;
+  background-image: linear-gradient(180deg, transparent 70%, rgba(200, 169, 57, .4) 0);
+}
+
+.blog-post .embedded_image {
+  @apply inline-block mx-1 mb-3 text-center;
+}
+
+.blog-post .embedded_image img {
+  @apply w-56 h-full mx-auto; 
+}
+
+.blog-post .embedded_image p {
+  @apply text-xs text-gray-800 text-center mt-2;
+}
+
+.blog-post hr {
+  @apply my-5;
+}
+
+.blog-post ol {
+  @apply list-decimal mb-3 mx-14;
+}
+
+.blog-post ol > li {
+  @apply text-left text-gray-700 leading-6 mb-1;
+}
+
+.blog-post blockquote {
+  @apply text-gray-800;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blog-post blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.blog-post blockquote p {
+  display: inline;
+}
+
+.blog-post .ql-align-center {
+  @apply text-center;
+}
+
+.blog-post .ql-align-justify {
+  @apply text-justify;
+}
