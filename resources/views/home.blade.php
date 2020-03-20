@@ -20,20 +20,24 @@
     <h1 class="text-3xl text-gray-800 font-bold">Latest News &amp; Publication</h1>
   
     <div class="mt-10 -mx-4 flex flex-wrap items-center">
-      @foreach ($posts as $latest)
-    <a href="{!! route('news.post', ['slug' => $latest->slug]) !!}" class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
-        <div class="shadow-md rounded-md overflow-hidden">
-          <div class="relative bg-gold pb-2/3">
-            <img src="{{ $latest->featured_image ? url(''.$latest->featured_image.'') : url('img/img-placeholder.png') }}"
-  alt="" class="absolute object-cover object-center h-full w-full opacity-75">
+      @if(count($posts) > 0)
+        @foreach ($posts as $latest)
+        <a href="{!! route('news.post', ['slug' => $latest->slug]) !!}" class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
+          <div class="shadow-md rounded-md overflow-hidden">
+            <div class="relative bg-gold pb-2/3">
+              <img src="{{ $latest->featured_image ? url(''.$latest->featured_image.'') : url('img/img-placeholder.png') }}"
+    alt="" class="absolute object-cover object-center h-full w-full opacity-75">
+            </div>
+            <div class="bg-gray-200 px-4 py-5">
+              <h3 class="text-lg font-semibold text-gray-800 truncate">{{ $latest->title }}</h3>
+              <p class="text-xs text-gray-500">{{ date('l, j F Y', strtotime($latest->publish_date)) }}</p>
+            </div>
           </div>
-          <div class="bg-gray-200 px-4 py-5">
-            <h3 class="text-lg font-semibold text-gray-800 truncate">{{ $latest->title }}</h3>
-            <p class="text-xs text-gray-500">{{ date('l, j F Y', strtotime($latest->publish_date)) }}</p>
-          </div>
-        </div>
-      </a>
-      @endforeach
+        </a>
+        @endforeach
+      @else
+      <p class="text-gray-700 text-center w-full px-4 py-12">No latest news or publication</p>
+      @endif
     </div>
   </div>
 </div>

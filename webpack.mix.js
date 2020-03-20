@@ -12,8 +12,6 @@ require('laravel-mix-purgecss');
  |
  */
 
-mix.copyDirectory('resources/assets/img', 'public/img');
-
 mix.js('resources/assets/js/app.js', 'public/js');
 
 mix

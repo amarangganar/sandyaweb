@@ -20,7 +20,11 @@
   <div class="max-w-5xl mx-auto px-6">
     <div class="-mx-8 flex flex-wrap items-start pb-16">
       <div class="w-full px-8 mb-4">
+      @if(count($posts) > 0)
         @include('news.posts-list')
+      @else
+        <p class="text-gray-700 text-center">No articles for this category</p>
+       @endif
       </div>
     </div>
   </div>
