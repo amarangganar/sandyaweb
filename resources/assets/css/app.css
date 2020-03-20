@@ -75,7 +75,11 @@ html * {
 }
 
 .blog-post p {
-  @apply text-gray-700 leading-6 mb-3 text-left;
+  @apply text-gray-700 leading-7 mb-5 text-left text-base;
+}
+
+.blog-post p * {
+  @apply text-base;
 }
 
 .blog-post a {
@@ -84,15 +88,16 @@ html * {
 }
 
 .blog-post .embedded_image {
-  @apply inline-block mx-1 mb-3 text-center;
+  @apply inline-block mx-1 mb-6 text-center;
 }
 
 .blog-post .embedded_image img {
-  @apply w-56 h-full mx-auto; 
+  @apply h-full mx-auto; 
+  width: 24rem;
 }
 
 .blog-post .embedded_image p {
-  @apply text-xs text-gray-800 text-center mt-2;
+  @apply text-sm text-gray-800 text-center mt-2;
 }
 
 .blog-post hr {
@@ -100,20 +105,34 @@ html * {
 }
 
 .blog-post ol {
-  @apply list-decimal mb-3 mx-14;
+  @apply list-decimal mb-5 mx-14;
+}
+
+.blog-post ul {
+  @apply mb-5 mx-14;
 }
 
 .blog-post ol > li {
-  @apply text-left text-gray-700 leading-6 mb-1;
+  @apply text-left text-gray-700 leading-6 mb-2 text-base;
+}
+
+.blog-post ul > li {
+  @apply text-left text-gray-700 leading-6 mb-2 text-base;
 }
 
 .blog-post blockquote {
-  @apply text-gray-800;
+  @apply text-gray-800 text-base mb-8;
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin-top: 1.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1em 10px;
   quotes: "\201C""\201D""\2018""\2019";
+}
+
+.blog-post blockquote * {
+  @apply text-base;
 }
 
 .blog-post blockquote:before {
@@ -129,7 +148,7 @@ html * {
 }
 
 .blog-post .ql-align-center {
-  @apply text-center;
+  @apply text-center !important;
 }
 
 .blog-post .ql-align-justify {

@@ -81,7 +81,7 @@
           </p>
         </div>
         <div class="mt-14">
-          <h3 class="text-xl text-gray-800 font-bold md:text-2xl mb-3">Voluenteering</h3>
+          <h3 class="text-xl text-gray-800 font-bold md:text-2xl mb-3">Volunteering</h3>
           <p class="text-gray-700 leading-6">
             Our volunteers who dedicate their time and energy towards the betterment of refugee education is vital to ensure this program’s success. Volunteering positions directly related to Sunrise Refugee Learning Center include Teaching Volunteers. You may send your application to <a href="mailto:sunrise@sandya-institute.org"
             class="text-gray-700"

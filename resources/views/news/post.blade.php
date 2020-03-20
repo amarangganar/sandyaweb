@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="max-w-3xl mx-auto px-6">
+  <div class="max-w-4xl mx-auto px-6">
     <div class="-mx-8 flex flex-wrap items-start pb-16">
       <div class="w-full px-8 mb-4">
         <div class="mt-6 text-center blog-post">
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="mb-16">
+    <div class="mb-20 pt-12 border-t border-gray-300">
       <div id="disqus_thread"></div>
     </div>
   </div>
