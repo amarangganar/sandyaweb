@@ -25,7 +25,7 @@
           <h3 class="text-xl text-gray-800 font-bold md:text-2xl mb-3">Publication</h3>
           <ul>
             <li>
-              <a href="#" class="text-gray-700"
+              <a href="https://suakaindonesia.files.wordpress.com/2018/12/know-your-rights-handbook.pdf" target="_blank" class="text-gray-700"
                 style="background-image: linear-gradient(180deg, transparent 70%, rgba(200, 169, 57, .4) 0);">Know Your
                 Rights!</a>
               </li>

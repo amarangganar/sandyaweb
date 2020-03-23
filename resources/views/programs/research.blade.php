@@ -20,8 +20,12 @@
           <h3 class="text-xl text-gray-800 font-bold md:text-2xl mb-3">Publication</h3>
           <ul>
             <li>
-              <a href="#" class="text-gray-700"
-                style="background-image: linear-gradient(180deg, transparent 70%, rgba(200, 169, 57, .4) 0);">Unlocking the Economic Potentials of Indonesia’s Refugee Community: A Survey on Labour Characteristics</a>
+              <a href="https://drive.google.com/file/d/1Nn3g3dsJU4L5VlF7iY8k9OWSFLoqGxxS/view?usp=sharing" target="_blank" class="text-gray-700"
+                style="background-image: linear-gradient(180deg, transparent 70%, rgba(200, 169, 57, .4) 0);">[English] Unlocking the Economic Potentials of Indonesia’s Refugee Community: A Survey on Labour Characteristics</a>
+              </li>
+            <li class="mt-3">
+              <a href="https://drive.google.com/file/d/1LlmhpM3Vum10WIRkFFQ3FKBnKquyaktU/view?usp=sharing" target="_blank" class="text-gray-700"
+                style="background-image: linear-gradient(180deg, transparent 70%, rgba(200, 169, 57, .4) 0);">[Bahasa Indonesia] Menjelaskan Potensi Ekonomi Komunitas Pengungsi Indonesia: Survei Mengenai Karakteristik Ketenagakerjaan dan Penghidupan</a>
               </li>
           </ul>
         </div>
