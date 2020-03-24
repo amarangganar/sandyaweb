@@ -15,7 +15,7 @@
         <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
           <div class="shadow-md rounded-md overflow-hidden">
             <div class="relative bg-gold pb-11/12">
-              <img class="absolute h-full w-full object-cover object-center" src="https://images.unsplash.com/photo-1504911539020-cfb0f7887a5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+              <img class="absolute h-full w-full object-cover object-top" src="{{ asset('img/boards/board-1.png') }}">
             </div>
             <div class="bg-white px-4 py-5">
               <h3 class="text-lg font-semibold text-gray-800 text-center">Dominique Virgil</h3>
@@ -26,7 +26,7 @@
         <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
           <div class="shadow-md rounded-md overflow-hidden">
             <div class="relative bg-gold pb-11/12">
-              <img class="absolute h-full w-full object-cover object-center" src="https://images.unsplash.com/photo-1484515991647-c5760fcecfc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=687&q=80">
+            <img class="absolute h-full w-full object-cover object-top" src="{{ asset('img/boards/board-2.png') }}">
             </div>
             <div class="bg-white px-4 py-5">
               <h3 class="text-lg font-semibold text-gray-800 text-center">Roberto</h3>
@@ -37,7 +37,7 @@
         <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
           <div class="shadow-md rounded-md overflow-hidden">
             <div class="relative bg-gold pb-11/12">
-              <img class="absolute h-full w-full object-cover object-center" src="https://images.unsplash.com/photo-1484515991647-c5760fcecfc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=687&q=80">
+              <img class="absolute h-full w-full object-cover object-bottom" src="{{ asset('img/boards/board-3.jpg') }}">
             </div>
             <div class="bg-white px-4 py-5">
               <h3 class="text-lg font-semibold text-gray-800 text-center">Matthew LoCastro</h3>

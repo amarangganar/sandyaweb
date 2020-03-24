@@ -45,3 +45,5 @@ Route::group(['prefix' => 'news'], function() {
 
 Route::get('/contact', function() { return view('contact'); })->name('contact');
 
+Route::get('/webmail', function() { return redirect()->away('https://iix4.cloudhost.id:2096/'); });
+
