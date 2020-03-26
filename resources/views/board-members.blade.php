@@ -15,7 +15,7 @@
         <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
           <div class="shadow-md rounded-md overflow-hidden">
             <div class="relative bg-gold pb-11/12">
-              <img class="absolute h-full w-full object-cover object-top" src="{{ asset('img/boards/board-1.png') }}">
+              <img class="absolute h-full w-full object-cover object-center" src="{{ asset('img/boards/board-1.jpeg') }}">
             </div>
             <div class="bg-white px-4 py-5">
               <h3 class="text-lg font-semibold text-gray-800 text-center">Dominique Virgil</h3>
